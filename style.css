@@ -1,0 +1,59 @@
+﻿body{
+    background-image:url('border.png');
+    background-size:1.5em;
+    line-height:1;
+    margin:0;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    font-family:'Lobster', cursive;
+    cursor:default;
+    background-position:0;
+}
+#container{
+    position:absolute;
+    top:.4em; bottom:.4em; left:.4em; right:.4em;
+    padding:.2em;
+    overflow:hidden;
+    background-color:#ebebd9;
+    border:1px solid #a0a08a;
+}
+#stage{
+    background-color:#263e4d;
+}
+#stage{
+    width:100%;
+    height:100%;
+}
+#text{
+    position:absolute;
+    top:40%;
+    left:0;
+    right:0;
+    padding:0 0.5em 0 0.5em;
+    color:#ebebd9;
+    text-shadow:0.05em 0.05em  #e85459;
+    text-align: center;
+    z-index:100;
+}
+h1{
+    line-height:100%;
+    margin-bottom:0.2em;
+    font-size:2em;
+    font-weight:normal;
+    text-shadow:0.035em 0.035em  #e85459;
+}
+em{
+    font-style:normal;
+    color:#ebebd9;
+    text-shadow:0.07em 0.07em #e85459;
+}
+.preloader{
+    display:none;
+}
+#soundcloud{
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    z-index:10000;
+}
